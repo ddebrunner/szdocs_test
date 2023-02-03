@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="generator" content="Magidoc" />
+    <meta
+      name="generator-url"
+      content="https://github.com/magidoc-org/magidoc"
+    />
+    
+    <meta http-equiv="content-security-policy" content="">
+		<link href="../_app/immutable/assets/_layout-14be03cc.css" rel="stylesheet">
+		<link href="../_app/immutable/assets/_commonjsHelpers-43b693e1.css" rel="stylesheet">
+		<link href="../_app/immutable/assets/ChevronDown-4e074f2b.css" rel="stylesheet">
+		<link href="../_app/immutable/assets/PreviousNextPage-4a5fa1bb.css" rel="stylesheet">
+		<link rel="modulepreload" href="../_app/immutable/start-7433f9c5.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/shared-d74a3711.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/singletons-90d8aaa5.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/index-9e4c88f1.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/control-e7f5239e.js">
+		<link rel="modulepreload" href="../_app/immutable/components/pages/_layout.svelte-8a8ea2ef.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/_commonjsHelpers-f1989d07.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/ChevronDown-2965eb04.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/prism-json-106361a3.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/model-68669604.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/pages-66586971.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/Button-7097fb01.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/stores-c6923995.js">
+		<link rel="modulepreload" href="../_app/immutable/components/pages/directives/_directive_/_page.svelte-a9c94df7.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/PreviousNextPage-31340888.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/ArgsList-9c334b4c.js">
+		<link rel="modulepreload" href="../_app/immutable/modules/pages/directives/_directive_/_page.ts-d7ee40cc.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/index-b40a4f3c.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/_page-02bd0e18.js"><title>Directive - materializer</title><!-- HEAD_svelte-w4mdaz_START --><meta name="keywords" content="graphql,api,documentation,StepZen SDL Reference"><meta name="description" content="StepZen SDL Reference's GraphQL documentation"><meta name="og:title" content="StepZen SDL Reference"><meta name="og:type" content="article"><meta name="og:image" content="https://stepzen.com/images/logo.svg"><meta name="og:site_name" content="StepZen SDL Reference"><meta name="og:description" content="StepZen SDL Reference's GraphQL documentation"><!-- HEAD_svelte-w4mdaz_END --><!-- HEAD_svelte-fycjkl_START --><!-- HEAD_svelte-fycjkl_END -->
+  </head>
+  <body>
+
+
+
+
+
+
+
+
+<header aria-label="" class="bx--header">
+  
+  <a href="/" class="bx--header__name">
+    <div slot="platform" class="header-logo-wrapper svelte-qat78g"><img src="https://stepzen.com/images/logo.svg" alt="Magidoc"></div></a>
+  <div class="bx--header__global"><button type="button" label="Search" class="bx--header__action ">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="20" height="20" aria-hidden><path d="M29,27.5859l-7.5521-7.5521a11.0177,11.0177,0,1,0-1.4141,1.4141L27.5859,29ZM4,13a9,9,0,1,1,9,9A9.01,9.01,0,0,1,4,13Z"></path></svg>
+  </button>
+    
+    </div></header>
+
+
+
+
+
+  <div style="false" class="bx--side-nav__overlay"></div>
+<nav aria-hidden class="bx--side-nav__navigation bx--side-nav bx--side-nav--ux  bx--side-nav--collapsed "><ul class="bx--side-nav__items"><li class="bx--side-nav__menu-item"><a href="/stepzen-sdl-reference" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">StepZen SDL Reference</span></a></li>
+        <li class="bx--side-nav__item"><button type="button" aria-expanded class="bx--side-nav__submenu">
+    <span class="bx--side-nav__submenu-title">Queries</span>
+    <div class="bx--side-nav__icon bx--side-nav__icon--small bx--side-nav__submenu-chevron"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden><path d="M16 22L6 12 7.4 10.6 16 19.2 24.6 10.6 26 12z"></path></svg></div></button>
+  <ul role="menu" style="max-height: none" class="bx--side-nav__menu"><li class="bx--side-nav__menu-item"><a href="/queries/_stepzen" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">_stepzen</span></a></li>
+        </ul></li>
+        <li class="bx--side-nav__item"><button type="button" aria-expanded class="bx--side-nav__submenu">
+    <span class="bx--side-nav__submenu-title">Directives</span>
+    <div class="bx--side-nav__icon bx--side-nav__icon--small bx--side-nav__submenu-chevron"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden><path d="M16 22L6 12 7.4 10.6 16 19.2 24.6 10.6 26 12z"></path></svg></div></button>
+  <ul role="menu" style="max-height: none" class="bx--side-nav__menu"><li class="bx--side-nav__menu-item"><a href="/directives/sdl" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">sdl</span></a></li><li class="bx--side-nav__menu-item"><a href="/directives/mock" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">mock</span></a></li><li class="bx--side-nav__menu-item"><a href="/directives/mockfn" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">mockfn</span></a></li><li class="bx--side-nav__menu-item"><a href="/directives/connector" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">connector</span></a></li><li class="bx--side-nav__menu-item"><a href="/directives/dbquery" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">dbquery</span></a></li><li class="bx--side-nav__menu-item"><a href="/directives/rest" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">rest</span></a></li><li class="bx--side-nav__menu-item"><a href="/directives/graphql" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">graphql</span></a></li><li class="bx--side-nav__menu-item"><a href="/directives/supplies" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">supplies</span></a></li><li class="bx--side-nav__menu-item"><a aria-current="page" href="/directives/materializer" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">materializer</span></a></li><li class="bx--side-nav__menu-item"><a href="/directives/sequence" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">sequence</span></a></li><li class="bx--side-nav__menu-item"><a href="/directives/eventstream" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">eventstream</span></a></li><li class="bx--side-nav__menu-item"><a href="/directives/key" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">key</span></a></li><li class="bx--side-nav__menu-item"><a href="/directives/external" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">external</span></a></li><li class="bx--side-nav__menu-item"><a href="/directives/override" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">override</span></a></li><li class="bx--side-nav__menu-item"><a href="/directives/shareable" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">shareable</span></a></li><li class="bx--side-nav__menu-item"><a href="/directives/tag" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">tag</span></a></li><li class="bx--side-nav__menu-item"><a href="/directives/inaccessible" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">inaccessible</span></a></li>
+        </ul></li>
+        <li class="bx--side-nav__item"><button type="button" aria-expanded class="bx--side-nav__submenu">
+    <span class="bx--side-nav__submenu-title">Types</span>
+    <div class="bx--side-nav__icon bx--side-nav__icon--small bx--side-nav__submenu-chevron"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="16" height="16" aria-hidden><path d="M16 22L6 12 7.4 10.6 16 19.2 24.6 10.6 26 12z"></path></svg></div></button>
+  <ul role="menu" style="max-height: none" class="bx--side-nav__menu"><li class="bx--side-nav__menu-item"><a href="/types/Argument" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">Argument</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/Boolean" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">Boolean</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/CachePolicy" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">CachePolicy</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/CacheStrategy" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">CacheStrategy</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/DBStatement" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">DBStatement</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/DMLResult" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">DMLResult</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/Date" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">Date</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/DateTime" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">DateTime</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/FieldSetter" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">FieldSetter</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/GraphQLPrefix" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">GraphQLPrefix</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/HTTPMethod" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">HTTPMethod</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/ID" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">ID</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/Int" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">Int</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/JSON" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">JSON</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/NamedValue" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">NamedValue</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/PageInfo" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">PageInfo</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/PaginationType" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">PaginationType</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/Query" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">Query</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/RESTPagination" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">RESTPagination</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/RequestHeader" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">RequestHeader</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/Secret" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">Secret</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/Step" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">Step</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/String" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">String</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/Transform" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">Transform</span></a></li><li class="bx--side-nav__menu-item"><a href="/types/_FieldSet" class=" bx--side-nav__link"><span class="bx--side-nav__link-text">_FieldSet</span></a></li>
+        </ul></li></ul></nav>
+
+<main id="main-content" style="margin-left: 0; undefined" class="bx--content"><div class="bx--grid"><div class="bx--row"><div class="bx--col">
+
+<section><div class="parent svelte-1jlumb"><h1 id="title" class="header header-base svelte-1jlumb">materializer</h1>
+  
+</div>
+
+  <p class="md-paragraph svelte-uzcm98">Specifies how a field <code class="code-span svelte-1292o4f">f
+</code> in an object type <code class="code-span svelte-1292o4f">P
+</code> of type <code class="code-span svelte-1292o4f">T
+</code> is resolved
+through execution of a <code class="code-span svelte-1292o4f">Query
+</code> root operation field <code class="code-span svelte-1292o4f">q
+</code>.
+</p>
+
+<div class="prism--show-copy-button"><pre class="line-numbers"><code></code></pre>
+</div>
+
+<p class="md-paragraph svelte-uzcm98">Field arguments for <code class="code-span svelte-1292o4f">q
+</code> can be mapped:
+</p>
+<ul class="markdown-list-style bx--list--unordered  " style="counter-reset: item 0">
+<li class="markdown-list-item bx--list__item">from fields of type <code class="code-span svelte-1292o4f">P
+</code></li>
+<li class="markdown-list-item bx--list__item">from field arguments of <code class="code-span svelte-1292o4f">f
+</code>.</li></ul>
+
+<p class="md-paragraph svelte-uzcm98">If no argument mapping is supplied then when type <code class="code-span svelte-1292o4f">P
+</code>:
+</p>
+<ul class="markdown-list-style bx--list--unordered  " style="counter-reset: item 0">
+<li class="markdown-list-item bx--list__item">is not a root operation type then arguments to <code class="code-span svelte-1292o4f">q
+</code> are mapped from fields in <code class="code-span svelte-1292o4f">P
+</code> with the same name</li>
+<li class="markdown-list-item bx--list__item">is a root operation type (e.g. <code class="code-span svelte-1292o4f">Query
+</code>) then arguments to <code class="code-span svelte-1292o4f">q
+</code> are mapped from field arguments of <code class="code-span svelte-1292o4f">f
+</code> with the same name</li></ul>
+
+<p class="md-paragraph svelte-uzcm98">All required arguments to <code class="code-span svelte-1292o4f">q
+</code> must be mapped otherwise <code class="code-span svelte-1292o4f">f
+</code> will fail schema validation.
+</p>
+
+<p class="md-paragraph svelte-uzcm98">With:
+</p><div class="prism--show-copy-button"><pre class="line-numbers"><code></code></pre>
+</div><p class="md-paragraph svelte-uzcm98">this means that field <code class="code-span svelte-1292o4f">Customer.emailInfo
+</code> is materialized
+by the execution of field <code class="code-span svelte-1292o4f">Query.validateEmail
+</code>, with the argument <code class="code-span svelte-1292o4f">email
+</code> being
+set from <code class="code-span svelte-1292o4f">Customer.email
+</code> of the same object.
+</p>
+
+<p class="md-paragraph svelte-uzcm98">If a field <code class="code-span svelte-1292o4f">f
+</code> in a concrete (object) type <code class="code-span svelte-1292o4f">C
+</code> is not
+annotated with <code class="code-span svelte-1292o4f">@materializer
+</code> then it inherits
+any <code class="code-span svelte-1292o4f">@materializer
+</code> specified on an interface <code class="code-span svelte-1292o4f">I.f
+</code>
+if <code class="code-span svelte-1292o4f">C
+</code> implements <code class="code-span svelte-1292o4f">I
+</code>.
+</p>
+
+  <div class="parent svelte-1jlumb"><h2 id="arguments" class="header header-base svelte-1jlumb">Arguments</h2>
+  <h2 class="header-base header-hashtag svelte-1jlumb"><a href="#arguments" class="hashtag svelte-1jlumb">#</a></h2>
+</div>
+    
+<div role="table" class="bx--structured-list  bx--structured-list--condensed ">
+<div role="rowgroup" class="bx--structured-list-tbody">
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">arguments</span>
+            
+<div id="ccs-0.jm43ewzx4o" class="bx--tag      bx--tag--blue        ">
+    <span>[
+<a href="/types/Argument" class="bx--link     ">Argument
+    </a>!]</span></div>
+            
+            </p>
+          <p>provides arguments for the materializer query from field in the
+enclosing type or the arguments to the field being
+materialized.
+
+An argument may be provided by a named field in the
+enclosing type, e.g. `{name:"id_arg" field:"bookID_field"}`
+or it can be provided by the arguments to the field being
+materialized, e.g. `{name:"id_arg" argument:"bookID_arg"}`.</p>
+          
+        </div>
+      </div>
+<div role="row" class="bx--structured-list-row ">
+<div role="cell" class=" bx--structured-list-td "><p><span style="font-weight: bold">query</span>
+            
+<div id="ccs-0.recysapj5q" class="bx--tag      bx--tag--blue        ">
+    <span>
+<a href="/types/String" class="bx--link     ">String
+    </a>!</span></div>
+            
+            
+<div id="ccs-0.p0e1px6z1nh" class="bx--tag     bx--tag--purple         ">
+    <span>Non-null</span></div></p>
+          <p>Specifies a field selection that materializes the annotated field.
+
+The syntax of `query` is a field set that selects a single field, with the root field being a field in `Query`, for example:
+  - `@materializer(query: "customer"`)` - the annotated field is resolved by the execution of `query {customer {...}}`.
+  - `@materializer(query: "customer {address{city}}"`)` - the annotated field is resolved by execution of `query {customer {address {city}}}`
+
+The type of the selected field (source type) must be assignable to the type of the annotated field (target type).
+  - Scalar types are assignable if the source type can be coerced to the target type, for example `Int!` to `Int`, or `Int!` to `ID!`.
+  - Composite types are assignable if:
+     - a source type is assigned to an interface target type it implements.
+     - a source type is assigned to a union target type it is a member of.</p>
+          
+        </div>
+      </div></div></div></section>
+
+<hr class="footer-hr svelte-19tre3a">
+
+<div class="wrapper svelte-19tre3a"><div class="previous direction-wrapper svelte-19tre3a"><div class="direction svelte-19tre3a"><strong>Previous
+
+          </strong></div>
+      <a href="/directives/supplies" class="title svelte-19tre3a"><span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="20" height="20" aria-hidden class="previous-next-arrow"><path d="M14 26L15.41 24.59 7.83 17 28 17 28 15 7.83 15 15.41 7.41 14 6 4 16 14 26z"></path></svg></span>
+        <p>supplies</p></a></div>
+
+  <div class="next direction-wrapper svelte-19tre3a"><div class="direction svelte-19tre3a"><strong>Next
+          </strong></div>
+      <a href="/directives/sequence" class="title svelte-19tre3a"><p>sequence</p>
+        <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" preserveAspectRatio="xMidYMid meet" width="20" height="20" aria-hidden class="previous-next-arrow"><path d="M18 6L16.57 7.393 24.15 15 4 15 4 17 24.15 17 16.57 24.573 18 26 28 16 18 6z"></path></svg></span></a></div>
+</div></div></div></div></main>
+
+
+		<script type="module" data-sveltekit-hydrate="1nyg5k7">
+			import { start } from "../_app/immutable/start-7433f9c5.js";
+
+			start({
+				env: {},
+				paths: {"assets":"","base":""},
+				target: document.querySelector('[data-sveltekit-hydrate="1nyg5k7"]').parentNode,
+				version: "1675434462977",
+				hydrate: {
+					node_ids: [0, 4],
+					data: [null,null],
+					form: null,
+					error: null
+				}
+			});
+		</script>
+	</body>
+</html>
